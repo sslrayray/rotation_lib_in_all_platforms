@@ -4,11 +4,11 @@
 ylei 2018.7.30
 
 ##Cartisian coordinate
-Students learn to present a point with Cartisian coodinate since their primary school. It is a very useful tool because once a base coordinate frame is setup, any point in the space can be presented with just a pair of number with respective to base coordinate frame:
+Students learn to present a point with Cartisian coodinate since their primary school. It is a very useful tool because once a base coordinate frame is setup, any point in the space can be presented with just a pair of number with respect to base coordinate frame:
  $$(x_{0}, y_{0})$$
 
 ##Rotation matrix
-I have a point \\(p\\) presented with Cartisian coordinate \\((x_a, y_a)\\) with respective to frame \\(F_a\\), if I rotate this point by axis Z of \\(F_a\\)with degree \\(-\theta\\), and then we have the new point \\(p'\\), the question is what's the Cartisian coordinate value of \\(p'_a\\), calculate \\((x'_a, y'_a)\\), \\(p_a\\) means the coordinate value of point \\(p\\) with respective to frame \\(F_a\\) 
+I have a point \\(p\\) presented with Cartisian coordinate \\((x_a, y_a)\\) with respect to the frame \\(F_a\\), if I rotate this point by axis Z of \\(F_a\\)with degree \\(-\theta\\), and then we have the new point \\(p'\\), the question is what's the Cartisian coordinate value of \\(p'_a\\), calculate \\((x'_a, y'_a)\\), \\(p_a\\) means the coordinate value of point \\(p\\) with respect to frame \\(F_a\\) 
 
 Actually, rotating the point \\(p\\) by axis Z of \\(Fa\\) with \\(-\theta\\) is equal to rotating the frame \\(Fa\\) by axis Z with \\(\theta\\), and then question can be transfered to what is the point's coordinate in the new frame \\(F_b\\), aka \\(p_b\\)?
 
